@@ -1,0 +1,114 @@
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul><?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+</aiml>
+<category>
+  <pattern>مرحبا</pattern>
+  <template>مرحباً بك</template>
+</category>
+
+<category>
+  <pattern>اهلا</pattern>
+  <template>مرحباً بك</template>
+</category>
+
+<category>
+  <pattern>السلام عليكم</pattern>
+  <template>مرحباً بك</template>
+</category><category>
+  <pattern>انا عمري 10</pattern>
+  <template>
+    <srai>SET AGE 10</srai>
+    حان وقت اكتشاف
+  </template>
+</category>
+
+<category>
+  <pattern>انا عمري 9</pattern>
+  <template>
+    <srai>SET AGE 9</srai>
+     حان وقت اكتشاف
+  </template>
+</category>
+
+<category>
+  <pattern>انا عمري 8</pattern>
+  <template>
+    <srai>SET AGE 8</srai>
+     حان وقت اكتشاف
+  </template>
+</category>
+
+<category>
+  <pattern>انا عمري 7</pattern>
+  <template>
+    <srai>SET AGE 7</srai>
+     حان وقت اكتشاف
+  </template>
+</category>
+
+<category>
+  <pattern>انا عمري 6</pattern>
+  <template>
+    <srai>SET AGE 6</srai>
+     حان وقت اكتشاف
+  </template>
+</category>
+
+<category>
+  <pattern>انا عمري 5</pattern>
+  <template>
+    <srai>SET AGE 5</srai>
+     حان وقت اكتشاف
+  </template>
+</category>
+
+<category>
+  <pattern>SET AGE *</pattern>
+  <template>
+    <set name="age"><star/></set>
+  </template>
+</category>
+
+<category>
+  <pattern>كم عمري</pattern>
+  <template>
+    عمرك <get name="age"/>
+  </template>
+</category><category>
+  <pattern>انا عمري 4</pattern>
+  <template>
+    <srai>SET AGE 4</srai>
+    مازلت صغيرا، اذهب إلى هذا الرابط لتعلم الحروف: https://www.youtube.com/watch?v=QTzBSXEkIuQ، وهذا لتعلم الأرقام: https://youtu.be/Qnr6dl0xQV4
+  </template>
+</category>
+
+<category>
+  <pattern>انا عمري 3</pattern>
+  <template>
+    <srai>SET AGE 3</srai>
+    مازلت صغيرا، اذهب إلى هذا الرابط لتعلم الحروف: https://www.youtube.com/watch?v=QTzBSXEkIuQ، وهذا لتعلم الأرقام: https://youtu.be/Qnr6dl0xQV4
+  </template>
+</category>
+
+<category>
+  <pattern>SET AGE *</pattern>
+  <template>
+    <set name="age"><star/></set>
+  </template>
+</category>
+
+<category>
+  <pattern>كم عمري</pattern>
+  <template>
+    عمرك <get name="age"/>
+  </template>
+</category>
